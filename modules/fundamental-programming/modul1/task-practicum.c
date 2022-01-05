@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     jumlah = nilai1 + nilai2 + nilai3;
     rata2 = jumlah / 3;
     nilai_akhir = rata2 * 4 / 100;
-    printf("rata rata nilai yang kamu peroleh adalah : %f \n", rata2);
-    printf("Nilai akhir yang kamu peroleh adalah : %f \n", nilai_akhir);
+    printf("rata rata nilai yang kamu peroleh adalah : %.2f \n", rata2);
+    printf("Nilai akhir yang kamu peroleh adalah : %.2f \n", nilai_akhir);
     return 0;
 }
